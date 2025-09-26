@@ -10,11 +10,16 @@ body:
       placeholder: "Exemplo: Botão 'Estou pronto' mais visível"
     validations:
       required: true
+name: Melhoria (UX/Docs/Copy)
+description: Proponha uma melhoria incremental
+labels: [enhancement, docs, design]
+body:
   - type: textarea
-    id: melhoria
+    id: change
     attributes:
-      label: Descreva a melhoria
-      description: Detalhe a sugestão de UX, fluxo ou texto
-      placeholder: "Como pode melhorar a experiência?"
-    validations:
-      required: true
+      label: O que melhorar
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Justificativa (cite princípios/obras)
+      placeholder: Maeda – The Laws of Simplicity; Erika Hall – Conversational Design...
