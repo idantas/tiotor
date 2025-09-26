@@ -1,0 +1,35 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="16" cy="16" r="16" fill="#030213"/>
+  
+  <!-- Central core -->
+  <circle cx="16" cy="16" r="2" fill="#ffffff" opacity="0.9"/>
+  
+  <!-- Audio wave bars - simplified version -->
+  <!-- Top -->
+  <line x1="16" y1="6" x2="16" y2="10" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+  <!-- Top Right -->
+  <line x1="23" y1="9" x2="21" y2="11" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+  <!-- Right -->
+  <line x1="26" y1="16" x2="22" y2="16" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" opacity="0.8"/>
+  <!-- Bottom Right -->
+  <line x1="23" y1="23" x2="21" y2="21" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+  <!-- Bottom -->
+  <line x1="16" y1="26" x2="16" y2="22" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+  <!-- Bottom Left -->
+  <line x1="9" y1="23" x2="11" y2="21" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+  <!-- Left -->
+  <line x1="6" y1="16" x2="10" y2="16" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" opacity="0.8"/>
+  <!-- Top Left -->
+  <line x1="9" y1="9" x2="11" y2="11" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+  
+  <!-- Inner ring of smaller bars -->
+  <line x1="16" y1="11" x2="16" y2="12.5" stroke="#ffffff" stroke-width="1" stroke-linecap="round" opacity="0.4"/>
+  <line x1="20" y1="13" x2="19" y2="14" stroke="#ffffff" stroke-width="1" stroke-linecap="round" opacity="0.3"/>
+  <line x1="21" y1="16" x2="19.5" y2="16" stroke="#ffffff" stroke-width="1" stroke-linecap="round" opacity="0.4"/>
+  <line x1="20" y1="19" x2="19" y2="18" stroke="#ffffff" stroke-width="1" stroke-linecap="round" opacity="0.3"/>
+  <line x1="16" y1="21" x2="16" y2="19.5" stroke="#ffffff" stroke-width="1" stroke-linecap="round" opacity="0.4"/>
+  <line x1="12" y1="19" x2="13" y2="18" stroke="#ffffff" stroke-width="1" stroke-linecap="round" opacity="0.3"/>
+  <line x1="11" y1="16" x2="12.5" y2="16" stroke="#ffffff" stroke-width="1" stroke-linecap="round" opacity="0.4"/>
+  <line x1="12" y1="13" x2="13" y2="14" stroke="#ffffff" stroke-width="1" stroke-linecap="round" opacity="0.3"/>
+</svg>

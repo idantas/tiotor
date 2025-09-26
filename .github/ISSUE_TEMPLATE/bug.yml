@@ -1,0 +1,36 @@
+name: Bug
+about: Relatar um bug
+labels: bug
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Título
+      description: Descreva o problema em uma frase
+      placeholder: "Exemplo: Timer não para ao finalizar gravação"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Passos para reproduzir
+      description: Liste os passos para reproduzir o bug
+      placeholder: "1. Inicie sessão\n2. Grave resposta\n3. ..."
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Comportamento esperado
+      description: O que deveria acontecer?
+      placeholder: "O timer deveria pausar ao finalizar a gravação."
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Adicione imagens se possível
+      placeholder: "Cole aqui as imagens ou links"
+    validations:
+      required: false

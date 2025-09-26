@@ -1,0 +1,20 @@
+name: Ideia não técnica
+about: Sugira ideias de conteúdo, copy ou storytelling (sem código)
+labels: ideia, conteúdo
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Título
+      description: Resuma a ideia
+      placeholder: "Exemplo: Nova história para onboarding do Tio Tor"
+    validations:
+      required: true
+  - type: textarea
+    id: ideia
+    attributes:
+      label: Descreva sua ideia
+      description: Detalhe a sugestão de conteúdo, copy ou storytelling
+      placeholder: "Conteúdo, narrativa, frases, exemplos..."
+    validations:
+      required: true

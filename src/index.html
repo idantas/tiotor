@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Apply dark mode immediately to prevent flash -->
+    <script>
+      document.documentElement.classList.add('dark');
+    </script>
+    
+    <!-- Favicon and Icons -->
+    <link rel="icon" type="image/svg+xml" href="public/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" sizes="16x16" href="/favicon-16x16.svg" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.svg" />
+    <link rel="mask-icon" href="/favicon.svg" color="#030213" />
+    
+    <!-- Theme and App Meta -->
+    <meta name="theme-color" content="#030213" />
+    <meta name="color-scheme" content="dark light" />
+    
+    <!-- App Information -->
+    <title>Tio Tor - Voice Interview Coach</title>
+    <meta name="description" content="Practice job interviews with Tio Tor, your AI-powered English interview coach. Improve your speaking skills through voice-based practice sessions." />
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Tio Tor - Voice Interview Coach" />
+    <meta property="og:description" content="Practice job interviews with Tio Tor, your AI-powered English interview coach. Improve your speaking skills through voice-based practice sessions." />
+    <meta property="og:image" content="/apple-touch-icon.svg" />
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Tio Tor - Voice Interview Coach" />
+    <meta name="twitter:description" content="Practice job interviews with Tio Tor, your AI-powered English interview coach. Improve your speaking skills through voice-based practice sessions." />
+    <meta name="twitter:image" content="/apple-touch-icon.svg" />
+    
+    <!-- PWA -->
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="application-name" content="Tio Tor" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Tio Tor" />
+    
+    <!-- Preload critical resources -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+{
+  "models": [
+    {
+      "title": "Ollama CodeLlama",
+      "provider": "ollama",
+      "model": "codellama"
+    },
+    {
+      "title": "Ollama Phi-3",
+      "provider": "ollama",
+      "model": "phi3"
+    }
+  ]
+,
+  "context": [
+    "src/lib/**/*",
+    "src/components/**/*",
+    "src/hooks/**/*",
+    "src/ai/**/*",
+    "src/utils/**/*",
+    "package.json",
+    "vite.config.ts"
+  ],
+  "prompts": {
+    "fix": "Explique e corrija o bug neste arquivo.",
+    "refactor": "Refatore este arquivo mantendo a mesma lógica, mas deixando o código mais limpo.",
+    "test": "Escreva testes unitários simples para este arquivo usando Vitest."
+  }
+}
+

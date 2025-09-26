@@ -1,0 +1,20 @@
+name: Melhoria
+about: Sugira melhorias de UX, fluxo ou textos
+labels: melhoria, ux
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Título
+      description: Resuma a melhoria
+      placeholder: "Exemplo: Botão 'Estou pronto' mais visível"
+    validations:
+      required: true
+  - type: textarea
+    id: melhoria
+    attributes:
+      label: Descreva a melhoria
+      description: Detalhe a sugestão de UX, fluxo ou texto
+      placeholder: "Como pode melhorar a experiência?"
+    validations:
+      required: true
