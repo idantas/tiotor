@@ -1,1 +1,3 @@
+# Ambiente local
+.env.local
 node_modules
